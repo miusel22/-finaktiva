@@ -7,32 +7,18 @@ body {
 
 
 
-.title {
-  text-align: center;
-  padding-top: 60px;
-  margin-bottom: 60px;
-  font-size: 4.5rem;
- 
-}
-
-.pos{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .form-container{
   position: absolute;
-  top:20vh;
+  top:10vh;
   background-color: white;
-  padding: 30px;
+  padding: 34px;
   border-radius: 10px;
   box-shadow:0px 0px 10px 0px  #000;
-
+margin-left: auto;
 }
 .tittle{
   margin-top:70px;
   color:white;
-position: relative;
+
   
 }
