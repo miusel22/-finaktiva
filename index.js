@@ -82,6 +82,9 @@ function removeNonList() {
     nonNumberList.innerHTML = '';
   }
 }
+function limpiarFormulario() {
+  document.getElementById("myForm").reset();
+}
 
 
 
