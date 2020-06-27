@@ -1,0 +1,13 @@
+body {
+  --tomato: tomato;
+  --teal: teal;
+  background-color: var(--tomato);
+}
+
+.title {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 60px;
+  font-size: 4.5rem;
+ 
+}
