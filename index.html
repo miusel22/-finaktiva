@@ -20,44 +20,52 @@
 </head>
 
 <body>
-  <div class="container">
-    <h2 class="title col">Operaciones</h2>
-    <form id="miForm" class="form text-center">
-      <div class="form-row mb-4  ml-2 sm-4">
-        <div class="col-md-8 center">
-          <input id="number" placeholder="Ingresa Número" class="form-control col" type="number" name="array">
+
+    <section class="container-fluid">
+     <section class="row justify-content-center">
+<section class="col-12 col-sm-6 col-md-3">
+<h1 class="text-center tittle">Operaciones</h1>
+  <form class="form-container">
+    <div class="form-row ">
+    <div class="form-group col-6">
+      <input id="number" placeholder="Ingresa Número" class="form-control " type="number" name="array">
           </input>
-        </div>
-        
-        <div class="col-md-4 sm-12">
-          <button class="btn btn-info" type="button" id="send-btn">
-            Enviar
-          </button>
-          <button class="btn btn-info" type="submit" id="send-btn">
-            limpiar
-          </button>
-        </div>
-      </div>
+    </div>
+    <div class="form-group text-center col-6">
+      <button class="btn btn-info " type="button" id="send-btn">
+        Enviar
+      </button>
+      <button class="btn btn-info col-5" type="submit" id="send-btn">
+        limpiar
+      </button>
+    </div>
+  </div>
+    <div class="form-group ">
+      <select id="select" class="form-control form-group">
+        <option value="1" selected>Elíge una Opción</option>
+        <option value="2">Ordenar de mayor a menor</option>
+        <option value="3">Ordenar de menor a mayor</option>
+        <option value="4">Sumar todos</option>
+        <option value="5">Multiplicar por el mismo número</option>
+      </select>
+    </div>
+    <div class="form-group card">
+      <ul id="number-list">
+      </ul>
+      <h3 class="text-center" id="non-list">No hay números aún 🥺</h3>
+      <h3 id="addition">
 
-      <div class="form-row mb-4 ml-2">
-        <div class="col-md-8">
-          <select id="select" class="form-control">
-            <option value="1" selected>Elige una Opción</option>
-            <option value="2">Ordenar de mayor a menor</option>
-            <option value="3">Ordear de menor a mayor</option>
-            <option value="4">Sumar todos</option>
-            <option value="5">Multiplicar por el mismo numero</option>
-          </select>
-        </div>
       </div>
-      <div class="col-md-8 card">
-        <ul id="number-list">
-        </ul>
-        <h3 class="text-center" id="non-list">No hay números aún 🥺</h3>
-        <h3 id="addition"></div>
-      </div>
+  
 
-    </form>
+
+  </form>
+</section>
+
+     </section>
+
+    </section>
+ 
   </div>
 
 
